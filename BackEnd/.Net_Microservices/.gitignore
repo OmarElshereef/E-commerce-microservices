@@ -1,0 +1,75 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+artifacts/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Dotnet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Compiled binaries
+*.dll
+*.exe
+*.app
+*.appx
+*.apk
+*.aab
+*.dmg
+*.pkg
+*.iso
+
+# Others
+*.cache
+*.log
+*.pid
+*.tmp
+*.bak
+*.swp
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# User secrets
+secrets.json
+
+# ASP.NET
+wwwroot/lib/
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
